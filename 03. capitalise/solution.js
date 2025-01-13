@@ -1,5 +1,5 @@
 function capitalise(word) {
-  return String(word).charAt(0).toUpperCase() + String(word).slice(1);
+  return String(word).slice(0,1).toUpperCase() + String(word).slice(1).toLowerCase();
 }
 
 module.exports = { capitalise };
